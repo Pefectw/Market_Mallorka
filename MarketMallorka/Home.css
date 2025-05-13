@@ -1,0 +1,79 @@
+main{
+
+    width: 55%;
+
+    margin: auto;
+
+    margin-top: 6%;
+
+    background: #fff7f0 ;
+
+    border: #000 groove 0.5rem;
+
+    border-radius: 3rem
+
+}
+
+
+.ParrafoBienvenida{
+
+    font-size: 1.5rem;
+
+    padding: 5%;
+
+    font-family: "Afo"
+    
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 430px){ 
+
+    .EncabezadoPagina{
+        
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center
+    }
+
+    
+    .BarraNavegacion{
+
+        margin: 0;
+
+        margin-right:48%
+    }
+
+    .Texto{
+
+        font-size: 1rem
+    }
+
+    main{
+
+        width: 80%
+    }
+
+    .FormularioModal{
+
+        width: 80%;
+
+        margin: auto;
+
+        margin-top: 50%
+    }
+
+    .TextoBienvenida{
+
+        margin-bottom: 8%
+    }
+
+    .IconoLimon{
+
+        display: none
+    }
+} 
+

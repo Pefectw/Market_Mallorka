@@ -1,0 +1,303 @@
+html{
+    font-size: 16px;
+}
+
+
+body{
+    margin: 0;
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+.EncabezadoPagina{
+
+    background: #003366;
+  
+    width: 100%;
+  
+    display: flex;
+  
+    flex-wrap: wrap
+  
+}
+
+
+.IconoLimon{
+
+    width: 5%;
+
+    height: 5rem;
+
+    padding: 4.5% 1% 0 3%
+ 
+}
+
+
+h1{
+
+    color: #fff;
+  
+    font-family: "Neee";
+  
+    font-weight: 700;
+  
+    font-size: 3rem;
+  
+    letter-spacing: 0.5rem
+  
+}
+
+
+.BarraNavegacion{
+
+    display: flex;
+
+    justify-content: space-between;
+    
+    width: 40%;
+
+    margin-left: auto;
+
+    padding: 4.5% 2.5% 0 0
+
+}
+
+
+.Texto{
+
+    font-family: "Soft";
+
+    margin-top: 2%;
+
+}
+
+
+.Enlaces__Items{
+
+    text-decoration: none;
+
+    color: #fff
+
+}
+
+
+.Lista__Items{
+
+    list-style-type: none;
+
+    font-size: 1.2rem;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    font-weight: bold;
+
+    color: #fff;
+
+    position: relative;
+
+    padding: 8px
+
+}
+
+
+.Lista__Items::after{
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: 5px;
+
+    width:  0%;
+
+    height: 4px;
+
+    background-color: #fff;
+
+    transition: width 0.3S ease
+
+}
+
+
+.AdministrativoItem::after{
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: 35px;
+
+    width:  0%;
+
+    height: 4px;
+
+    background-color: #fff;
+
+    transition: width 0.3S ease
+    
+}
+
+
+.Lista__Items:hover::after{
+
+    width: 100%
+
+}
+
+
+.Texto{
+
+    font-family: "Afo";
+  
+    font-weight: bold;
+  
+    font-size: 1.4rem
+    
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+.IconoAdmin{
+    background-image: url("../Imagenes/Administrativos.png")
+
+}
+
+
+.IconoCatalogo{
+    background-image: url("../Imagenes/Catalogo.png")
+
+}
+
+
+.IconoDescripcion{
+    background-image: url("../Imagenes/Grupo.png")
+
+}
+
+
+.IconoContactos{
+    background-image: url("../Imagenes/Contacto.png")
+
+}
+
+
+.IconoAdmin, .IconoCatalogo, .IconoDescripcion, .IconoContactos{
+
+    background-size: cover;
+
+    display: block;
+
+    width: 3rem;
+
+    height: 3rem
+
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+.Modal{
+
+    width: 100%;
+
+    height: 300rem;
+
+    background: #0009
+    
+}
+
+
+.FormularioModal{
+
+    border: #000 groove 0.5rem;
+
+    border-radius: 1rem;
+
+    width: 25%;
+    
+    margin-left: 35%;
+
+    margin-top: 12%;
+
+    background: #fff;
+
+    text-align: center  
+
+}
+
+
+.TituloModal{
+
+    font-size: 2rem
+
+}
+
+
+.SeparadoresModal{
+
+    border-bottom: #000 0.4rem groove;
+
+    margin-bottom: 8%
+
+}
+
+
+.EntradaModal{
+
+    border-radius: 0.3rem;
+
+    width: 55%
+
+}
+
+
+.EnunciadoModal{
+
+    font-size: 1.3rem
+
+}
+
+
+.BotonModal{
+
+    display: block;
+
+    margin: auto;
+
+    font-size: 1rem;
+
+    border-radius: 0.5rem;
+
+    margin-top: 8%;
+
+    margin-bottom: 8%;
+
+    padding: 0.2rem 1.5rem
+
+}
+
+
+
+.EnunciadoModal, .TituloModal, .BotonModal, .TextoBienvenida, .Lista__Items{
+
+    font-family: "Soft"
+
+}
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+.BotonModal:hover{
+
+    background: #ebf5fb
+
+}

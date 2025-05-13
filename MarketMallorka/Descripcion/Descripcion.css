@@ -1,0 +1,164 @@
+.Titulo{
+    
+    text-align: center;
+
+    font-family: "Afo";
+
+    font-size: 4.1rem;
+
+    font-weight: 900;
+
+    text-shadow: 0 0 0.2rem #000
+
+}
+
+
+.EncapsuladoGrande{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-evenly
+
+}
+
+
+.Encapsulado{
+
+    width: 19%;
+    
+    text-align: center;
+
+    margin-bottom: 3%;
+
+    background: #f8f9f9 ;
+
+    border-radius: 2rem;
+
+    padding: 2%;
+
+    border: 8px #fff groove
+
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+.Encapsulado:hover{
+
+    background:  #fff 
+
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+.Foto{
+
+    width: 50%;
+
+    border-radius: 3rem;
+
+    border: 0.1rem solid #000
+
+}
+
+
+.PropietariosFoto{
+
+    height: 12rem
+
+}
+
+
+.EquipoFoto{
+
+    height: 12rem;
+
+    width: 70%;
+
+}
+
+.Nombre{
+
+    font-family: "Afo";
+
+    font-size: 2rem
+
+}
+
+
+.Cargo{
+
+    color: #abb2b9;
+
+    font-family: "Afo";
+
+    font-size: 1.3rem
+
+}
+
+
+.Descripcion{
+
+    font-size: 1.3rem;
+
+    font-family: "Afo"
+
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 430px){ 
+
+    .IconoLimon{
+
+        display: none
+    }
+
+    .EncabezadoPagina{
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center
+    }
+
+    .Encapsulado{
+        
+        width: 75%;
+
+        margin-bottom: 15%
+    }
+
+    .BarraNavegacion{
+
+        margin: 0;
+
+        margin-right:48%
+    }
+
+    .Texto{
+
+        font-size: 1rem
+    }
+
+    .FormularioModal{
+
+        width: 80%;
+
+        margin: auto;
+
+        margin-top: 50%
+    }
+
+    .Lista__Items{
+
+        font-size: 0.9rem
+    }
+
+    .Lista__Items::after{
+
+        display: none
+    }
+} 

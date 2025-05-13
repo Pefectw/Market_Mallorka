@@ -1,0 +1,35 @@
+html{
+
+    font-size: 16px
+
+}
+
+
+body{
+
+    margin: 0
+
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.PiePagina{
+
+    background: #f2f4f4;
+
+    padding: 3%;
+
+    margin-top: 10%
+
+}
+
+
+.Frase{
+
+    font-size: 1.5rem;
+
+    font-family: "Afo";
+
+    text-align: center
+
+}

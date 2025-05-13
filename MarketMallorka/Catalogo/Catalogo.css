@@ -1,0 +1,478 @@
+html{
+
+  font-size: 16px
+
+}
+
+
+.FormularioModalDatos{
+
+  width: 30%;
+
+  background: #fff;
+
+  margin: auto;
+
+  border: #000 groove 0.5rem;
+
+  margin-top: 10%;
+
+  border-radius: 0.8rem;
+
+}
+
+
+.TituloModalDatos, .TituloModalConfirmacion{
+
+  text-align: center;
+
+  font-family: "Afo";
+
+}
+
+
+.SeparadoresModalDatos{
+
+  width: 100%;
+
+  border-bottom: #000 0.4rem groove;
+
+  margin-bottom: 5%;
+
+}
+
+
+.EnunciadoModalDatos{
+
+  font-family: "Afo";
+
+  font-size: 1.2rem;
+
+  margin-left: 14%
+
+}
+
+
+.EntradaModalDatos{
+
+  display: block;
+
+  width: 73%;
+
+  border-radius: 8%;
+
+  border-left: 0.2rem #000 solid;
+
+  border-top: 0.2rem #000 solid;
+
+  margin-left: 14%;
+
+  margin-bottom: 5%
+
+}
+
+
+.BotonModalDatos, .BotonModalConfirmacion{
+
+  display: block;
+
+  margin: auto;
+
+  font-size: 1.2rem;
+
+  font-family:"Afo";
+
+  border-radius: 8%;
+
+  margin-bottom: 5%;
+
+  padding: 0.8% 2%;
+
+}
+
+
+/*---------------------------------------------------------------------*/
+
+.BotonModalDatos:hover{
+
+  background: #d6eaf8
+
+}
+
+/*---------------------------------------------------------------------*/
+
+.FormularioModalConfirmacion{
+
+  width: 30%;
+
+  margin: auto;
+
+  background: #fef9f5;
+
+  margin-top: 15%;
+
+  border: #000 groove 0.5rem;
+
+}
+
+
+.SeparadoresModalConfirmacion{
+
+  width: 100%;
+
+  border-bottom: 0.4rem #000 groove
+
+}
+
+.TituloModalConfirmacion{
+
+  font-size: 2.5rem;
+
+  margin: 6%;
+
+}
+
+/*---------------------------------------------------------------------*/
+
+.EncapsuladoPadre{
+
+  display: flex;
+
+  margin: 3%;
+
+  gap: 3%
+
+}
+
+  
+.EncapsuladoMenu{
+
+  width: 18%; 
+
+  border: 0.3rem groove #fff;
+
+  background: #fef9f5;
+
+  text-align: center
+
+}
+
+  
+.Menu{
+
+  list-style: none;
+
+  display: flex;
+
+  flex-direction: column
+
+}
+  
+
+.Opciones{
+
+  font-family: "Soft";
+
+  font-size: 1.2rem;
+
+  border-bottom: #fff groove 0.1rem;
+
+  padding: 8% 0;
+
+  text-decoration: none;
+    
+  color: #000
+
+}
+  
+
+.EncapsuladoProductos{
+
+  display: flex;
+
+  flex-wrap: wrap;
+    
+  width: 78%; 
+
+  justify-content: space-between
+
+}
+
+
+/*---------------------------------------------------------------------*/
+
+.Opciones:hover{
+
+  background: #fff
+
+}
+
+
+.EncapsuladoProducto:hover{
+
+  background: #fff;
+}
+  
+
+/*---------------------------------------------------------------------*/
+ 
+h3{
+
+  margin-right: 80%;
+
+  margin-bottom: 0.5rem;
+
+  font-size: 3rem; 
+
+  font-family: "Afo";
+
+  font-weight: 900;
+  
+  text-shadow: #000 0 0 0.1rem
+
+}
+  
+.EncapsuladoProducto{
+
+  border: 0.4rem groove #fff;
+
+  min-width: 20%; 
+
+  max-width: 20%;
+
+  display: flex;
+    
+  flex-direction: column;
+
+  align-items: center;
+
+  background: #fef9f5;
+
+  border-radius: 1rem;
+
+  padding: 1%; 
+    
+  margin-bottom: 4%;
+
+}
+  
+
+.Imagen{
+
+  width: 60%;
+    
+  border-radius: 0.5rem;
+
+  margin-bottom: 8%; 
+    
+  box-shadow: #000 0 0 0.4rem
+
+}
+  
+
+.Nombre, .Precio, .Boton{
+
+  font-family: "Afo";
+
+  margin: 1% 0; 
+
+  font-size: 1.1rem
+    
+}
+  
+
+.Boton{
+
+  letter-spacing: 1px; 
+
+  margin-bottom: 8%;
+
+  margin-top: 5%; 
+
+  padding: 0.5rem 1rem; 
+
+  font-size: 0.9rem;
+
+  border-radius: 1rem;
+
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+  
+
+#IconoCarritoCompras{
+
+  width: 6%;
+
+  position: relative;
+
+  bottom: 125rem;
+
+  left: 87.5rem;
+
+}
+
+
+.IconoWhats{
+
+  width: 3.9%;
+
+  box-shadow: 0 0 0.5rem #000 ;
+
+  border-radius: 5rem;
+
+  position: fixed;
+
+  right: 1.6rem;
+
+  bottom: 1rem
+
+}
+
+
+.BotonIconoFlecha{
+
+  background: none;
+
+  border: none;
+
+  position: fixed;
+
+  top: 520px;
+
+  left: 1410px;
+
+  opacity: 0;
+
+  transition: opacity 0.3s ease-in-out
+
+}
+
+
+.IconoFlecha{
+
+  width: 60%;
+
+  border-radius: 50%;
+
+  box-shadow: 0 0 0.5rem #000
+
+}
+
+
+.MostrarBoton{
+
+  opacity: 1
+
+}
+
+/*---------------------------------------------------------------------*/
+
+@media (max-width: 480px){
+    
+  .EncabezadoPagina{
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center
+  }
+
+  .IconoLimon{
+
+    display: none
+  }
+
+  .BarraNavegacion{
+
+    margin: 0;
+
+    margin-right:48%
+  }
+
+  .Texto{
+
+    font-size: 1rem;
+
+  }
+
+  .FormularioModal{
+
+    width: 70%;
+
+    margin: auto;
+
+    margin-top: 50%
+  }
+
+  .FormularioModalDatos{
+
+    width: 90%;
+
+    margin-top: 50%;
+
+  }
+
+  .FormularioModalConfirmacion{
+
+    width: 95%;
+
+    margin-top: 60%
+
+  }
+
+  .Lista__Items{
+
+    font-size: 0.9rem
+
+  }
+
+  .Lista__Items::after{
+
+    display: none;
+  }
+
+  h3{
+    
+    text-shadow: 0 0 0.1rem #000
+  }
+
+  .Menu, .EncapsuladoMenu{
+
+    display: none
+  }
+
+  .EncapsuladoProductos{
+
+    width: 98%; 
+
+    padding: 1%
+  }
+
+  .EncapsuladoProducto{
+
+    min-width: 40%; 
+
+    padding: 2.5%;
+
+    margin-bottom: 8%;
+  }
+  
+  .Imagen{
+    
+    width: 70%
+  }
+  
+  .Boton{
+
+    padding: 0.5rem 1rem;
+
+    margin-top: 9%
+  }
+
+  .IconoWhats{
+
+    width: 15%
+  }
+}

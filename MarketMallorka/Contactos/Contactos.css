@@ -1,0 +1,219 @@
+.EncapsuladoGrande{
+
+    display: flex;
+
+    flex-wrap: wrap
+
+}
+
+
+.Maps{
+
+    width: 45%;
+
+    height: 27rem;
+
+    border: #fff  groove 0.6rem;
+
+    margin: 3%
+
+}
+
+
+.EncapsuladoPequeño{
+
+    margin-top:3%;
+
+    width: 42%;
+
+    display: flex;
+
+    flex-direction: column
+
+}
+
+
+.EncapsuladoContactos{
+
+    background: #f8f9f9 ;
+
+    border: groove #fff 0.6rem;
+
+    height: 10rem;
+    
+    margin-bottom: 5.5%
+
+}
+
+
+h3{
+
+    margin: 0;
+
+    margin-bottom: 4%;
+
+    font-size: 1.5rem;
+
+    text-align: center;
+
+    text-shadow: 0 0 0.1rem #000;
+
+}
+
+
+li{
+
+    font-size: 1.2rem
+    
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+ul li:first-child::marker{
+
+    content: "✉  "
+
+}
+
+ul li:nth-child(2)::marker, ul li:nth-child(3)::marker{
+
+    content: "☏  "
+
+}
+
+ul li:nth-child(4)::marker{
+
+    content: "⚑  "
+  
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+.EncapsuladoMetodos{
+
+    background: #f8f9f9;
+
+    border: groove #fff 0.6rem;
+
+    height: 8.6rem
+
+}
+
+
+.EncapsuladoImagenesMetodos{
+
+    display: flex;
+
+    justify-content: space-between
+
+}
+
+
+.ImagenesEncapsuladoMetodos{
+
+    width: 15%;
+
+    border-radius: 30%;
+
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+.EncapsuladoContactos, .EncapsuladoMetodos:hover{
+
+    background:  #fff 
+
+}
+
+.EncapsuladoContactos, .EncapsuladoMetodos{
+
+    font-family: "Afo";
+
+    padding: 3%
+
+}
+
+.ImagenesEncapsuladoMetodos:hover{
+
+    box-shadow: 0 0 0.5rem #000
+
+}
+
+/*---------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 430px) { 
+
+    .EncabezadoPagina{
+
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center
+
+    }
+
+    .IconoLimon{
+
+        display: none
+
+    }
+
+    .BarraNavegacion{
+
+        margin: 0;
+
+        margin-right:48%
+
+    }
+
+    .Texto{
+
+       font-size: 1rem
+    }
+
+    .FormularioModal{
+
+        width: 70%;
+
+        margin: auto;
+
+        margin-top: 50%
+
+    }
+
+    .Lista__Items{
+
+        font-size: 0.9rem
+
+    }
+
+    .Lista__Items::after{
+
+        display: none;
+
+    }
+
+    .Maps{
+
+        width: 90%;
+
+        height: 20rem
+    }
+
+    .EncapsuladoPequeño{
+
+        width: 95%;
+
+        margin: 3%
+
+    }
+
+    .EncapsuladoContactos{
+
+        height: 12rem;
+
+        margin-top: 20%
+
+    }
+} 
